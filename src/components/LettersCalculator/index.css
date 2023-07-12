@@ -1,0 +1,70 @@
+/* Write your code here. */
+.main-container{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c 0%, #93f9b9 107%);
+  height: 100vh;
+}
+.letters-container{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.calculator-container{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+.heading{
+   text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+ color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold; 
+}
+.letterinput{
+   color: #ffffff;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #e4e7eb;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  outline: none;
+}
+.letter-count{
+  align-self: center;
+  color: #219a6f;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-top: 32px;
+  padding: 18px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.image{
+  width: 550px;
+  order: 1;
+}
